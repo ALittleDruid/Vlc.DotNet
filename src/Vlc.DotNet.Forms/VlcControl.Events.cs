@@ -163,7 +163,7 @@ namespace Vlc.DotNet.Forms
         [Category("Media Player")]
         public event EventHandler<VlcMediaPlayerLengthChangedEventArgs> LengthChanged;
 
-        public void OnLengthChanged(float newLength)
+        public void OnLengthChanged(long newLength)
         {
             lock (myEventSyncLocker)
             {
@@ -432,7 +432,7 @@ namespace Vlc.DotNet.Forms
         [Category("Media Player")]
         public event EventHandler<VlcMediaPlayerTitleChangedEventArgs> TitleChanged;
 
-        public void OnTitleChanged(string newTitle)
+        public void OnTitleChanged(int newTitle)
         {
             lock (myEventSyncLocker)
             {

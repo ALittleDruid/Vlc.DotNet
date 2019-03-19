@@ -1,5 +1,10 @@
-# 2.2.2 (prerelease)
+# 3.0.0 (prerelease)
+- BREAKING CHANGE : Created a new WPF control using ImageSource [#365](https://github.com/ZeBobo5/Vlc.DotNet/pull/365) see how to use in wiki!
+- FIXED the type of the `NewTitle` property (int -> string) in `VlcMediaPlayerTitleChangedEventArgs` [#364](https://github.com/ZeBobo5/Vlc.DotNet/pull/364)
+- FIXED Dispose() in WPF project [#358](https://github.com/ZeBobo5/Vlc.DotNet/pull/358)
 - CHANGED name of internal handle class from `SafeUnmanagedMemoryHandle` to `Utf8StringHandle` [#337](https://github.com/ZeBobo5/Vlc.DotNet/pull/337)
+- ADDED : `SetMouseInput`/`SetKeyInput` methods [#424](https://github.com/ZeBobo5/Vlc.DotNet/pull/424). Fixes [#379](https://github.com/ZeBobo5/Vlc.DotNet/issues/379) and [#107](https://github.com/ZeBobo5/Vlc.DotNet/issues/107). Thanks @CrookedFingerGuy
+- ADDED : Rendering support for alpha channel videos in WPF control [#439](https://github.com/ZeBobo5/Vlc.DotNet/pull/439)
 
 # 2.2.1
 - FIXED assembly file version that was incorrect #[326](https://github.com/ZeBobo5/Vlc.DotNet/pull/326)
